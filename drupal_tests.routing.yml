@@ -1,0 +1,11 @@
+drupal_tests.custom_node:
+  path: '/get-node-title/{node}'
+  defaults:
+    _controller: '\Drupal\drupal_tests\Controller\CustomNodeController'
+  requirements:
+    _permission: 'open node in modal'
+    # _access: 'TRUE'
+  options:
+    parameters:
+      node:
+        type: entity:node

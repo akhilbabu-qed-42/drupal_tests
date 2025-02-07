@@ -1,0 +1,5 @@
+name: 'drupal tests'
+type: module
+description: 'tests'
+package: Custom
+core_version_requirement: ^10 || ^11

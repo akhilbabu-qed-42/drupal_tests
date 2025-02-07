@@ -1,0 +1,5 @@
+drupal_tests.custom_node:
+  route_name: drupal_tests.custom_node
+  base_route: entity.node.canonical
+  title: Click here
+  weight: 100
